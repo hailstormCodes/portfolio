@@ -2,56 +2,57 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Haylee Adamson | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my collection!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, my name is',
+  name: 'Haylee Adamson',
+  subtitle: "and I'm learning the ropes of react development",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'headshot.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robofriends.png',
+    title: 'Robofriends',
+    info:
+      'React app created following the tutorial provided by Zero to Mastery Complete React Developer Udemy class',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hailstormcodes.github.io/robofriends/',
+    repo: 'https://github.com/hailstormCodes/robofriends', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'quoteGenerator.png',
+    title: 'Quote Generator',
+    info: 'Javascript project created following the tutorial 20 Javascript ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hailstormcodes.github.io/quote-generator2/',
+    repo: 'https://github.com/hailstormCodes/quote-generator2', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'habitual.png',
+    title: 'Habitual Mockup',
+    info: 'Created for 20 JavaScript projects class',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hailstormcodes.github.io/splash-page/',
+    repo: 'https://github.com/cobidev/splash-page', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'hayleeadamson@hotmail.com',
 };
 
 // FOOTER DATA
@@ -68,7 +69,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/HayleeAdamson',
     },
     {
       id: nanoid(),
@@ -78,12 +79,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hayleeadamson/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/hailstormCodes',
     },
   ],
 };
