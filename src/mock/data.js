@@ -11,16 +11,19 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Haylee Adamson',
-  subtitle: "and I'm learning the ropes of react development",
+  subtitle: "and I'm learning the ropes of React development",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'headshot.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "I have an undergrad degree in psychology and a master's degree in forensic psychology. I started my career as a juvenile probation counselor/officer. I quickly learned that it wasn't for me and decided to start learning how computers work. I quickly realized how much there is to learn!",
+  paragraphTwo:
+    'I started learning SharePoint and wanted to make customizations via Javascript and have been learning ever since. I truly love programming and the ability to bring my ideas to life',
+  paragraphThree:
+    "Learning to code has truly become a passion of mine as I'm always eager and willing to learn.",
   resume: '', // if no resume, the button will not show up
 };
 
