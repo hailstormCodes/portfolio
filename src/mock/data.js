@@ -57,6 +57,15 @@ export const projectsData = [
     url: 'https://hailstormcodes.github.io/splash-page/',
     repo: 'https://github.com/cobidev/splash-page', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'habitual.png',
+    title: 'Crown Clothing MockUp',
+    info: 'Created from the Zero to Mastery 2021 React Class',
+    info2: '',
+    url: 'https://hailstormcodes.github.io/crwn-clothing/',
+    repo: 'https://github.com/hailstormCodes/crwn-clothing', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
