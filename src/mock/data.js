@@ -59,7 +59,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'habitual.png',
+    img: 'crown-clothing.png',
     title: 'Crown Clothing MockUp',
     info: 'Created from the Zero to Mastery 2021 React Class',
     info2: '',
